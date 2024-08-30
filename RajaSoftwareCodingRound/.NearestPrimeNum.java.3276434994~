@@ -1,0 +1,17 @@
+public class NearstPrimeNum{
+  public static void main(String args[]){
+    int num = 121;
+
+    int nearestPrimeNum = getNearestPrimeNum(num);
+  }
+
+  public static int getNearestPrimeNum(int num){
+ 
+    
+  }
+
+  public static boolean isPrime(int num){
+    if(n <= 1) return false;
+    if(n <=3) return 
+  }
+}

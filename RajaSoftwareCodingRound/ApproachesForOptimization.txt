@@ -1,0 +1,42 @@
+1. Divide and Conquer -> 
+Description: Breaks a problem into smaller subproblems, solves them independently, and combines their results.
+Examples: Merge Sort, Quick Sort, Binary Search, and Strassen's Matrix Multiplication.
+
+2. Dynamic Programming ->
+Description: Solves problems by breaking them down into simpler overlapping subproblems and storing the results to avoid redundant computations.
+Examples: Fibonacci sequence, Knapsack problem, and Longest Common Subsequence (LCS).
+
+3. Greedy Algorithms ->
+Description: Greedy algorithms build up a solution piece by piece, always choosing the next piece that offers the most immediate benefit. The choice made by a greedy algorithm may depend on the current state but never reconsiders choices once made.
+
+Principles:
+Greedy Choice Property: A global optimum can be arrived at by selecting a local optimum.
+Optimal Substructure: A problem has an optimal substructure if an optimal solution to the problem contains optimal solutions to its subproblems.
+
+Examples: Dijkstra's shortest path algorithm, Kruskal's and Prim's algorithms for Minimum Spanning Trees, and Huffman Coding.
+
+4. Backtracking ->
+Definition:
+Backtracking is an algorithmic technique for solving problems incrementally by trying partial solutions and then abandoning them ("backtracking") if they are not valid. It is often used for constraint satisfaction problems.
+
+Principles:
+Incremental Approach: Build the solution step-by-step.
+Exploration and Pruning: Explore all potential possibilities and prune (discard) those paths that are not feasible or do not lead to a solution.
+Recursion: Uses recursion to explore possibilities.
+
+
+5. Two Pointers ->
+Description: Uses two pointers to iterate through a data structure in a linear fashion to solve optimization problems.
+Examples: Merging two sorted arrays, sorting a binary array, and finding pairs with a given sum.
+
+6. Graph Algorithms ->
+Description: Optimizes problems involving graphs using specialized algorithms.
+Examples: Depth-First Search (DFS), Breadth-First Search (BFS), Dijkstra's Algorithm, Bellman-Ford Algorithm, and Floyd-Warshall Algorithm.
+
+7. Parallelism and Concurrency ->
+Description: Breaks down tasks to run them in parallel, leveraging multi-core processors to optimize execution time.
+Examples: Multi-threading, MapReduce, GPU-based computations.
+
+
+-> differences between greedy and backtracking : 
+
